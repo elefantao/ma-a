@@ -8,17 +8,17 @@
 <body>
     <form action="https://formspree.io/f/xgvwyyko" method="post">
         <p>Digite seu nome:</p>
-        <input type="text" name="nome" placeholder="Ex: Emanuele">
+        <input type="text" name="nome" placeholder="Ex: Emanuele" required>
         <br>
         <p>Coloque seu email:</p>
-        <input type="email" name="email" placeholder="Ex:DanielaBrito@gmail.com"> 
+        <input type="email" name="email" placeholder="Ex:DanielaBrito@gmail.com" value="gmail.com" required> 
         <br>
         <p>Coloque seu número:</p>
-        <input type="number" name="phone" placeholder="Ex:(XX) XXXX-XXXX">
+        <input type="number" name="phone" placeholder="Ex:(XX) XXXX-XXXX" required>
         <br>
         <p>Você tem o segundo grau completo?</p>
-        <input type="radio" name="work" value="Sim"> Com certeza
-        <input type="radio" name="work" value="Não"> Sem certeza
+        <input type="radio" name="work" value="Sim" checked> Sim
+        <input type="radio" name="work" value="Não"> Não
         <br>
         <p>Qual seu estado de origem?</p>
         <select name="estados" id="">
